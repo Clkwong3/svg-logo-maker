@@ -17,7 +17,7 @@ describe("Shape", () => {
   // Test 2
   test("should NOT set up color correctly", () => {
     // set the colors
-    const incorrectColor = "brown";
+    const incorrectColor = "blue";
     const correctColor = "red";
 
     // Create an instance of Shape with incorrect color
