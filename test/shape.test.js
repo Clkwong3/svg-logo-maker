@@ -11,16 +11,7 @@ describe("Shape Classes", () => {
       const shape = new Shape("red");
 
       // Check if Shape instance is red
-      expect(shape.color).toBe("red");
-    });
-
-    // Failing test
-    test("should set up color incorrectly", () => {
-      // Create an instance of Shape with color blue
-      const shape = new Shape("blue");
-
-      // Check if Shape instance is red
-      expect(shape.color).toBe("red"); // This will fail
+      expect(shape.color).toEqual("red");
     });
   });
 });
