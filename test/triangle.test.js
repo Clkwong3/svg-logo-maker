@@ -4,8 +4,8 @@ const { Triangle } = require("../lib/shape");
 describe("Triangle", () => {
   // Test 1
   test("renders a triangle with CORRECT attributes", () => {
-    // Create an instance of triangle with base 250, height 150, and color pink
-    const triangle = new Triangle(200, 150, "pink");
+    // Create an instance of triangle with color pink
+    const triangle = new Triangle("pink");
 
     // Define the expected SVG markup for a pink triangle
     const correctAttributes =
