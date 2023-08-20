@@ -8,7 +8,8 @@ describe("Circle Attributes", () => {
     const circle = new Circle("green");
 
     // Define the expected SVG markup for a green circle
-    const correctAttributes = `<circle cx="50" cy="50" r="100" width="100" height="100" fill="green"/>`;
+    const correctAttributes =
+      '<circle cx="50" cy="50" r="100" width="100" height="100" fill="green"/>';
 
     // Check if the rendered SVG matches the expected SVG
     expect(circle.render()).toBe(correctAttributes);
@@ -20,7 +21,8 @@ describe("Circle Attributes", () => {
     const circle = new Circle("orange");
 
     // Define the expected SVG markup for a orange circle
-    const incorrectAttributes = `<circle cx="50" cy="50" r="100" width="100" height="100" fill="orange"/>`;
+    const incorrectAttributes =
+      '<circle cx="50" cy="50" r="100" width="100" height="100" fill="orange"/>';
 
     // Check if the rendered SVG doesn't match the expected SVG
     expect(circle.render()).toBe(incorrectAttributes);
