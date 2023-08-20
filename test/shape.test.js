@@ -1,5 +1,4 @@
-const { test } = require("node:test");
-const { Shape, Circle, Triangle, Square } = require("../lib/shape");
+const { Shape } = require("../lib/shape");
 
 // describe block for "Shape Classes"
 describe("Shape Classes", () => {
@@ -7,11 +6,14 @@ describe("Shape Classes", () => {
   describe("Shape", () => {
     // Passing Test
     test("should set up color correctly", () => {
-      // Create an instance of Shape with color red
-      const shape = new Shape("red");
+      // set the color
+      const color = "red";
 
-      // Check if Shape instance is red
-      expect(shape.color).toEqual("red");
+      // Create an instance of Shape with color
+      const shape = new Shape(color);
+
+      // Check if Shape instance is color
+      expect(shape.color).toBe(color);
     });
   });
 });
