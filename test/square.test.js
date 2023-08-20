@@ -1,6 +1,6 @@
 const { Square } = require("../lib/shape");
 
-// describe block for square
+// describe block for Square
 describe("square Attributes", () => {
   // Test 1
   test("renders a square with CORRECT attributes", () => {
@@ -14,9 +14,9 @@ describe("square Attributes", () => {
     expect(square.render()).toBe(correctAttributes);
   });
 
-  // describe block for square
+  // describe block for Square
   describe("square Attributes", () => {
-    // Test 1
+    // Test 2
     test("renders a square with INCORRECT attributes", () => {
       // Create an instance of square with color purple
       const square = new Square("purple");
