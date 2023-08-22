@@ -15,6 +15,10 @@ const questions = [
     name: "bgColor",
     message: "Please enter the background color:",
   },
+  {
+    name: "textColor",
+    message: "Please enter the text color:",
+  },
 ];
 
 // Initialize the process
