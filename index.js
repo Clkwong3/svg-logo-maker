@@ -11,6 +11,10 @@ const questions = [
     choices: ["Circle", "Square", "Triangle"],
     message: "Please select a shape:",
   },
+  {
+    name: "bgColor",
+    message: "Please enter the background color:",
+  },
 ];
 
 // Initialize the process
