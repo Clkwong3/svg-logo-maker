@@ -4,7 +4,14 @@ const inquirer = require("inquirer");
 const { Circle, Triangle, Square } = require("./lib/shape.js");
 
 // Questions for user
-const questions = [{}];
+const questions = [
+  {
+    type: "list",
+    name: "shape",
+    choices: ["Circle", "Square", "Triangle"],
+    message: "Please select a shape:",
+  },
+];
 
 // Initialize the process
 function init() {
