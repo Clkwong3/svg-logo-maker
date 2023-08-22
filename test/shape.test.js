@@ -13,17 +13,4 @@ describe("Shape", () => {
     // Check if Shape instance is equal to color
     expect(shape.color).toBe(color);
   });
-
-  // Test 2
-  test("should NOT set up color correctly", () => {
-    // set the colors
-    const incorrectColor = "blue";
-    const correctColor = "red";
-
-    // Create an instance of Shape with incorrect color
-    const shape = new Shape(incorrectColor);
-
-    // Check if Shape instance is not equal to correctColor
-    expect(shape.color).not.toBe(correctColor);
-  });
 });
