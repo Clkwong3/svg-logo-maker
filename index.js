@@ -8,5 +8,5 @@ const questions = [{}];
 
 // Initialize the process
 function init() {
-  inquirer.prompt(questions).then().catch();
+  inquirer.prompt(questions).then((answers) => {});
 }
