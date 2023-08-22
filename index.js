@@ -19,6 +19,13 @@ const questions = [
     name: "textColor",
     message: "Please enter the text color:",
   },
+  {
+    name: "text",
+    message: "Please enter text (maximum 3 characters):",
+    validate: (input) => {
+      return input.length <= 3 ? true : "Please enter up to 3 characters.";
+    },
+  },
 ];
 
 // Initialize the process
