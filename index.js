@@ -31,7 +31,9 @@ const questions = [
 // Initialize the process
 function init() {
   inquirer.prompt(questions).then((answers) => {
-    fs.writeFile("./dist/logo.svg", "svgContent", (err, result) => {
+    let chosenShape;
+
+    fs.writeFile("./dist/logo.svg", chosenShape.render(), (err, result) => {
       if (err) {
         console.error("Error creating SVG:", err);
       } else {
