@@ -42,6 +42,8 @@ Here are some useful links for this project:
 - Mozilla: [Basic shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes#polygon)
 - Mozilla: [Text](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text)
 
+- Demo Video: [Screencastify](https://drive.google.com/file/d/13YoRQgEaugYNmF6J5ozDyeBZEatiQgZr/view)
+
 ## Contact-Me
 
 If you encounter any issues, please report them on the project's [GitHub repository](https://github.com/Clkwong3/svg-logo-maker).
