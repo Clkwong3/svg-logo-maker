@@ -41,7 +41,20 @@ function init() {
           answers.textColor
         );
         break;
-
+      case "Triangle":
+        chosenShape = new Triangle(
+          answers.text,
+          answers.bgColor,
+          answers.textColor
+        );
+        break;
+      case "Square":
+        chosenShape = new Square(
+          answers.text,
+          answers.bgColor,
+          answers.textColor
+        );
+        break;
       default:
         break;
     }
