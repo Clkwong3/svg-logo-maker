@@ -19,9 +19,9 @@ describe("Triangle", () => {
 
     // Define the expected SVG markup for the given attributes
     const expectedSVG = `
-    <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="50,15 100,100 0,100" fill="blue">
-    <text x="150" y="125" font-size="60" text-anchor="middle" fill="yellow">Sample Text</text>
+    <svg width="300" height="260" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="150,30 270,230 30,230" fill="blue" />
+      <text x="150" y="205" font-size="80" text-anchor="middle" fill="yellow">Sample Text</text>
     </svg>`;
 
     // Check if the rendered SVG matches the expected SVG markup
