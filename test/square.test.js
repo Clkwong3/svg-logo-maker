@@ -2,16 +2,30 @@ const { Square } = require("../lib/shape");
 
 // describe block for Square
 describe("square Attributes", () => {
-  // Test 1
-  test("renders a square with CORRECT attributes", () => {
-    // Create an instance of square with color yellow
-    const square = new Square("yellow");
+  // Test 1: Attributes should be set correctly
+  test("should correctly set attributes", () => {
+    // Create an instance of square with Square Text, bgColor green, and textColor yellow
+    const square = new Square("Square Text", "green", "yellow");
 
-    // Define the expected SVG markup for a yellow square
-    const correctAttributes =
-      '<rect x="50" y="50" width="100" height="100" fill="yellow"/>';
+    // Check if the attributes of the square instance are correctly set
+    expect(square.text).toEqual("Square Text");
+    expect(square.bgColor).toEqual("green");
+    expect(square.textColor).toEqual("yellow");
+  });
 
-    // Check if the rendered SVG matches the expected SVG
-    expect(square.render()).toBe(correctAttributes);
+  // Test 2: SVG rendering should match the expected SVG markup
+  test("should render a square with correct SVG markup", () => {
+    // Create an instance of square with specific attributes
+    const square = new Square("Sample Text", "purple", "white");
+
+    // Define the expected SVG markup for the given attributes
+    const expectedSVG = `
+    <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <rect x="150" y="150" width="200" height="200" fill="purple"/>
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">Sample Text</text>
+    </svg>`;
+
+    // Check if the rendered SVG matches the expected SVG markup
+    expect(square.render()).toEqual(expectedSVG);
   });
 });
