@@ -34,8 +34,12 @@ function init() {
     let chosenShape;
 
     switch (answers.shape) {
-      case:
-       
+      case "Circle":
+        chosenShape = new Circle(
+          answers.text,
+          answers.bgColor,
+          answers.textColor
+        );
         break;
 
       default:
