@@ -3,7 +3,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const { Circle, Triangle, Square } = require("./lib/shape.js");
 
-// Questions for user
+// Questions for User
 const questions = [
   {
     type: "list",
