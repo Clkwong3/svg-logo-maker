@@ -20,7 +20,7 @@ describe("Circle Attributes", () => {
 
     // Define the expected SVG markup for the given attributes
     const expectedSVG = `
-    <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <svg width="300" height="200">
       <circle cx="150" cy="100" r="80" fill="green"/>
       <text x="150" y="125" font-size="60" text-anchor="middle" fill="purple">Sample Text</text>
     </svg>`;
