@@ -20,7 +20,7 @@ describe("square Attributes", () => {
 
     // Define the expected SVG markup for the given attributes
     const expectedSVG = `
-    <svg width="200" height="200">
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
       <rect x="20" y="20" width="160" height="160" fill="purple"/>
       <text x="100" y="120" font-size="60" text-anchor="middle" fill="white">Sample Text</text>
     </svg>`;
