@@ -48,7 +48,7 @@ Here are some useful links for this project:
 
 ## Contact-Me
 
-If you encounter any issues, please report them on the project's [GitHub repository](https://github.com/Clkwong3/svg-logo-maker/issues/new).
+If you encounter any issues, please report them on the project's [GitHub repository](https://github.com/Clkwong3/svg-logo-maker).
 
 You can also connect with me on [GitHub](https://github.com/Clkwong3).
 
